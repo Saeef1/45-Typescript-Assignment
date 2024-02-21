@@ -1,0 +1,7 @@
+function toTitleCase(a){
+  return a.replace(/\b\w/g, char => char.toUpperCase());
+}
+let a = "eric";
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+console.log(toTitleCase(a));
