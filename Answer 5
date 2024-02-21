@@ -1,0 +1,3 @@
+let a = "\n \t Muhammad Saeef \t \n"
+console.log(a)
+console.log(a.trim())
