@@ -1,3 +1,1 @@
-let quote = ('"Your Futuer is created by what you do today not tomorrow"')
-let author = ("Charlie Chaplin.")
-console.log(author,"once said,",quote)
+console.log('Charlie Chaplin once said,"Your futuer is created by what you do today not tomorrow"')
