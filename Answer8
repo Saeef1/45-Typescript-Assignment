@@ -1,2 +1,3 @@
+//I messed with counting my answer so I'm going to correct it 
 let favoriteNumber = 8;
 console.log("My favorite number is" , favoriteNumber);
