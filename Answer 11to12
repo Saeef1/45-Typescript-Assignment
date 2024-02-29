@@ -1,0 +1,4 @@
+let friends:string[] = ["hammed","danish","wahab"];
+friends.forEach(name =>{ 
+  console.log("Assalam walaikum",name,"how was your day");
+});
