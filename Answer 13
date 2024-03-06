@@ -1,0 +1,6 @@
+let member : string[] =["Boat","Bike","Car","Private jet"];
+member.forEach(
+    name => {
+        console.log('I always wanted a good',name)
+    }
+);
