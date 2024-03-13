@@ -1,0 +1,2 @@
+let members : string[] =[ 'Ayesha', 'Huzifa' ] ;
+console.log("I'm inviting",members.length,"member to dinner.");
