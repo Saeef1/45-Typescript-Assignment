@@ -1,0 +1,43 @@
+// Exercise 14
+let members : string[] =["Huzifa","Imran","kamran"];
+members.forEach(
+    name => {
+        console.log("You are invited to dinner",name)
+    });
+// Exercise 15
+    console.log("Mr",members[1],"Can't make it to dinner");
+const newMember :string = "Naveed";
+members = members.map(
+    person=> person == members[1] ? newMember :  person
+)
+console.log("Update members list");
+console.log(members);
+members.forEach(
+    name=> {
+        console.log("you are invited to dinner",name)
+    });
+// Exercise 16
+    console.log("Guys i have found even bigger dinner on daraz! lets invite other members");
+const member5 :string = "Ayesha"
+members.unshift(member5);
+const member6 : string = "Yakob"
+members.push(member6)
+const member7 : string ="Sara";
+members.splice(members.length /2,0,member7);
+console.log(members);
+members.forEach(
+    name => {
+        console.log("You are invited to dinner",name)
+    }
+);
+// Exercise 17
+console.log("sorry but the table got delayed so i can only invite 2 people.");
+while(members.length > 2){
+    let memberRemoved = members.pop();
+    console.log("Sorry but the dinner table is short", memberRemoved ,"I will invite you next time")};
+console.log(members);
+while (members.length >0){
+    let allMember = members.pop();
+    console.log("You're still invited",allMember);
+}
+console.log(members);
