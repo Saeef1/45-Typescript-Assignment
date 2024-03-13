@@ -1,0 +1,14 @@
+const world :string[] =["Canada","Turkey","Iceland","Saudia Arabia"]
+console.log("orignal",world);
+console.log("alphabetical order",[...world].sort());
+console.log("orignal",world);
+console.log("reverse alphabhatical order",[...world].sort().reverse());
+console.log("orignal",world);
+world.reverse();
+console.log("reverse order",world);
+world.reverse();
+console.log("oraginal agian",world);
+world.sort();
+console.log("sort",world);
+world.reverse();
+console.log("reverse sort",world);
