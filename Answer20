@@ -1,0 +1,7 @@
+let elements :string[] =["Earth","Water","Air","Fire"];
+console.log("The Four Elements");
+elements.forEach(
+    element => {
+        console.log(element);
+    }
+    )
