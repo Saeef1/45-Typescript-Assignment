@@ -1,0 +1,18 @@
+const Anime1 : {title:string; writter:string ; founded:number} = {
+    title : "Dragonb Ball Super",
+    writter : "Akira Toriyama(late)",
+    founded : 2015
+}
+const Anime2 : {title:string; writter:string ; founded:number} = {
+    title : "One Piece",
+    writter : "Eiichiro Oda",
+    founded :  1997
+}
+const Anime3 : {title:string; writter:string ; founded:number} = {
+    title : "Jujutsu Kaisen",
+    writter : "Gege Akutami",
+    founded : 2020
+}
+console.log(Anime1);
+console.log(Anime2);
+console.log(Anime3);
