@@ -1,0 +1,6 @@
+// error
+// let error : number[] =[23,45,67,89];
+// console.log(error[20]);
+//not error
+let error : number[] =[23,45,67,89];
+console.log(error[2]);
