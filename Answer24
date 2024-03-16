@@ -1,0 +1,26 @@
+console.log("String test")
+let me :string = "saeef"
+console.log(me =="Saeef","I predict false");
+console.log(me =="saeef","I predict true");
+
+console.log("Lower case test")
+console.log("SAEEF".toLowerCase()== me, "I predict true");
+
+console.log("Number test")
+console.log(94>64,"I predict true");
+console.log(78>93,"I predict false");
+
+console.log('"and" operators test')
+console.log(true&&false,"I predict false")
+console.log(false && false,"I predict true")
+console.log('"or" operators test')
+console.log(true || false,"I predict true")
+console.log(false || false,"I predict false")
+
+console.log("array test")
+let petAnimal = ["cow","cat","dog","hamster","rooster"]
+
+console.log(petAnimal.includes("cow"),"I predict true");
+console.log(petAnimal.includes("bat"),"I predict false");
+console.log("not array test")
+console.log(!petAnimal.includes("snake"),"I predict true");
