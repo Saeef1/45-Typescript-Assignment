@@ -1,9 +1,6 @@
 //I added function because there is no titleCase in TS
-function toTitleCase(a){
-  return a.replace(/\b\w/g, char => char.toUpperCase());
-}
-let a = "eric";
+let a:string = "eric";
 console.log(a.toUpperCase());
 console.log(a.toLowerCase());
 //Write variable inside title case
-console.log(toTitleCase(a));
+console.log(a.charAt(0).toUpperCase() + a.slice(1).toLowerCase());
