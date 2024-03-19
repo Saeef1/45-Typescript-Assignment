@@ -1,0 +1,22 @@
+let favourite_fruits : string[] = ["Mango","Banana","Apple"];
+if (favourite_fruits.includes("Apple")){
+    console.log("You really like apples")
+}
+if (favourite_fruits.includes("Banana")){
+    console.log(`You really like bananas`)
+}
+if (favourite_fruits.includes("Mango")){
+    console.log(`You really like Mangoes`)
+}else {
+    console.log(`You don't like Mangoes`)
+}
+if (favourite_fruits.includes("orange")){
+    console.log(`You really like oranges`)
+}else{
+    console.log(`You don't like oranges`)
+}
+if (favourite_fruits.includes("kiwi")) {
+    console.log(`You really like kiwi`)
+} else {
+    console.log(`You don't like kiwi`)        
+}
