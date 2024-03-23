@@ -1,0 +1,13 @@
+let current_user:string[] = [`Akram`,`Larib`,`Noman`,`Harman`,`Sara`];
+
+let new_user:string[] = [`Samad`,`Kiran`,`harman`,`Faraz`,`SARA`];
+
+new_user.forEach(
+    newUser => {
+        if (current_user.some(currentUser => currentUser.toLowerCase()===newUser.toLowerCase())) {
+            console.log(`${newUser} not avilable`)
+        } else {
+            console.log(`${newUser} avilable`)
+        }
+    }
+)
