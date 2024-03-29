@@ -1,0 +1,7 @@
+let pizza :string[]= ["Pepperoni","Chesse burst","Malai Tikka"]
+pizza.forEach(
+    flavour=>{
+        console.log(`I really like ${flavour} pizza`)
+    }
+)
+console.log(`I mostly love every flavour`)
