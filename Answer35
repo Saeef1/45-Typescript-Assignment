@@ -1,0 +1,12 @@
+const pets :string[] = [`Dog`,`Cat`,`Parrot`];
+pets.forEach(
+    animals=> {
+        if (animals===`Cat`) {
+            console.log(`Most people likes ${animals}`)
+        } else if (animals===`Dog`) {
+            console.log(`${animals} are usally good for garding`)
+        }else if (animals===`Parrot`) {
+            console.log(`My family really like ${animals}`)
+        }
+    }
+)
