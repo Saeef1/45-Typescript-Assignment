@@ -1,0 +1,4 @@
+function makingShirt (size:string,lines:string,Color:string){
+    console.log(`I would like a ${size} size T-shirt ${Color} color with ${lines} strip line `)
+}
+makingShirt(`medium`,`black`,`blue`)
