@@ -1,0 +1,13 @@
+function make_album(artist:string,title:string,tracks?:number){
+    let album:any ={
+        artist,
+        title
+    }
+    if (tracks) {
+        album['tracks'] = tracks 
+    }
+    return album
+}
+console.log(make_album(`Aleemrk`,`Wake up`));
+console.log(make_album(`Jokay`,`Shayad`));
+console.log(make_album(`boywithuke`,`lucid dreams`,16));
