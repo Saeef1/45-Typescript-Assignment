@@ -1,0 +1,6 @@
+function make_Shirt (size:string,message:string){
+    console.log(`I would like a ${size} size T-shirt with ${message} written on it. `);
+};
+make_Shirt(`medium`,`The function`);
+make_Shirt(`large`,`I love TypeScript`);
+make_Shirt(`small`,`Assignment done`);
