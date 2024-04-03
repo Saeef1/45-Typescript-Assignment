@@ -1,0 +1,7 @@
+const magicians : string[] =[`Harry Hodini`,`Derren Brown`,`David Copperfield`,`Teller`,`Dynamo`];
+function show_magicians (magicians:string[]) {
+ magicians.forEach(
+    men => {
+        console.log(men)
+})}
+show_magicians(magicians);
