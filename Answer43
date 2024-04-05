@@ -1,0 +1,23 @@
+const magicians: string[] = [`Harry Hodini`, `Derren Brown`, `David Copperfield`, `Teller`, `Dynamo`];
+
+function show_magicians(magicians:string[]){
+    magicians.forEach(
+        magician=> {
+            console.log(magician)
+        }
+    )
+}
+function make_great (magicians:string[]){
+    let great :string[] =[];
+    magicians.forEach(
+        magician => {
+            great.push(`${magician} the Great`)
+        }
+    ); 
+    return great
+}
+let great = make_great(magicians);
+console.log(`Orignal magicians`);
+show_magicians(magicians);
+console.log(`Great magicians`);
+show_magicians(great);
