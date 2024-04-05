@@ -1,0 +1,6 @@
+function sandwitch (ingrediants:string[]){
+    console.log(`Making a sandwitch with ${ingrediants.join(`, `)} .`)
+}
+sandwitch([`chesses`,`pattty`])
+sandwitch([`kechup`,`beff`,`BBQ sauce`])
+sandwitch([`mustard`,`chesses`,`pattty`])
