@@ -1,0 +1,10 @@
+function car_module(manufacturer:string,module_name:string, ...options:[string,any][]){
+let car:any = {manufacturer,module_name} 
+options.forEach(
+    ([key,value]) => {car[key] = value }
+);
+return car
+}
+
+console.log(car_module("Toyota", "Corolla", ["color", "red"], ["year", 2020]));
+console.log(car_module("Ford", "Fiesta", ["color", "blue"], ["sunroof", true]));
